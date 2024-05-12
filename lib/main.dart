@@ -125,12 +125,7 @@ _signup(context) {
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
       const Text("Dont have an account? "),
-      TextButton(onPressed: () {
-        
-      }, child: const Text("Sign Up"))
+      TextButton(onPressed: () {}, child: const Text("Sign Up"))
     ],
   );
 }
-// ..............................................
-
-
